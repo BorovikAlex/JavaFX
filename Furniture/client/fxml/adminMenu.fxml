@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="900.0" style="-fx-background-color: #703869;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.controllers.AdminMenuController">
+   <children>
+      <Label alignment="CENTER" layoutX="208.0" layoutY="14.0" prefHeight="98.0" prefWidth="485.0" text="Система рассчета прибыли в мебельном магазине" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Calibri Bold Italic" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="backButton" layoutX="786.0" layoutY="448.0" mnemonicParsing="false" onAction="#back" prefWidth="100.0" text="Выйти">
+         <font>
+            <Font name="Calibri" size="18.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="admin" layoutX="172.0" layoutY="185.0" mnemonicParsing="false" onAction="#adminB" prefWidth="250.0" text="Работа с администраторами">
+         <font>
+            <Font name="Calibri" size="18.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="user" layoutX="172.0" layoutY="235.0" mnemonicParsing="false" onAction="#userB" prefWidth="250.0" text="Пользователи">
+         <font>
+            <Font name="Harrington" size="16.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="furniture" layoutX="172.0" layoutY="285.0" mnemonicParsing="false" onAction="#furnitureB" prefWidth="250.0" text="Мебель">
+         <font>
+            <Font name="Calibri" size="18.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="materials" layoutX="478.0" layoutY="185.0" mnemonicParsing="false" onAction="#materialsB" prefWidth="250.0" text="Работа с материалами">
+         <font>
+            <Font name="Calibri" size="18.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="firm" layoutX="478.0" layoutY="235.0" mnemonicParsing="false" onAction="#firmB" prefWidth="250.0" text="Работа с поставщиками">
+         <font>
+            <Font name="Calibri" size="18.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="profit" layoutX="478.0" layoutY="285.0" mnemonicParsing="false" onAction="#profitB" prefWidth="250.0" text="Рассчет прибыли">
+         <font>
+            <Font name="Calibri" size="18.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="900.0" style="-fx-background-color: #703869;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.controllers.RegistrController">
+   <children>
+      <Label alignment="CENTER" layoutX="208.0" layoutY="14.0" prefHeight="98.0" prefWidth="485.0" text="Система рассчета прибыли в мебельном магазине" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Calibri Bold Italic" size="36.0" />
+         </font>
+      </Label>
+      <TextField fx:id="userName" layoutX="306.0" layoutY="147.0" prefHeight="30.0" prefWidth="270.0" promptText="Имя">
+         <font>
+            <Font name="Calibri" size="18.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </TextField>
+      <TextField fx:id="userSurname" layoutX="306.0" layoutY="197.0" prefHeight="30.0" prefWidth="270.0" promptText="Фамилия">
+         <font>
+            <Font name="Calibri" size="18.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </TextField>
+      <TextField fx:id="userLogin" layoutX="306.0" layoutY="247.0" prefHeight="30.0" prefWidth="270.0" promptText="Логин">
+         <font>
+            <Font name="Calibri" size="18.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </TextField>
+      <PasswordField fx:id="userPassword" layoutX="306.0" layoutY="297.0" prefHeight="30.0" prefWidth="270.0" promptText="Пароль">
+         <font>
+            <Font name="Calibri" size="18.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </PasswordField>
+      <Button layoutX="351.0" layoutY="448.0" mnemonicParsing="false" onAction="#registration" prefWidth="180.0" text="Зарегистрироваться">
+         <font>
+            <Font name="Calibri" size="18.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="backButton" layoutX="786.0" layoutY="448.0" mnemonicParsing="false" onAction="#back" prefWidth="100.0" text="Назад">
+         <font>
+            <Font name="Calibri" size="18.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <TextField fx:id="userEmail" layoutX="306.0" layoutY="347.0" prefHeight="30.0" prefWidth="270.0" promptText="Email">
+         <font>
+            <Font name="Calibri" size="18.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </TextField>
+      <TextField fx:id="userPhone" layoutX="306.0" layoutY="397.0" prefHeight="30.0" prefWidth="270.0" promptText="Телефон">
+         <font>
+            <Font name="Calibri" size="18.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </TextField>
+   </children>
+</AnchorPane>
